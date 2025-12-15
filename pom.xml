@@ -20,7 +20,35 @@
 	    <groupId>org.springframework.boot</groupId>  
 	    <artifactId>spring-boot-devtools</artifactId>  
 	</dependency>
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.42</version>
+          <scope>provided</scope>
+      </dependency>
+<!--      <dependency>-->
+<!--          <groupId>org.springframework</groupId>-->
+<!--          <artifactId>spring-core</artifactId>-->
+<!--      </dependency>-->
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>fastjson</artifactId>
+          <version>1.2.71</version>
+      </dependency>
     
+      <!-- JUnit 5 dependencies for testing -->
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-api</artifactId>
+          <version>5.7.0</version>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-engine</artifactId>
+          <version>5.7.0</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
   <properties>
      <java.version>1.8</java.version>
