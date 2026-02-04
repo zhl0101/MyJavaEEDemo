@@ -1,6 +1,6 @@
 package com.zhl.test.algorithm;
 
-import com.zhl.demo.algorithm.AlipayDiscount;
+import com.zhl.demo.leetCode.algorithm.AlipayDiscount;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
