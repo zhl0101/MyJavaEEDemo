@@ -11,7 +11,7 @@ public class NewsPublisher implements Subject {
     private String news;
     
     public NewsPublisher() {
-        observers = new ArrayList<>();
+        observers = new ArrayList<Observer>();
     }
     
     @Override
