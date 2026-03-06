@@ -1,4 +1,4 @@
-package com.zhl.demo.leetCode.algorithm.array;
+package com.zhl.demo.leetCode.array;
 
 public class MissingNumber {
     // 找出缺失的数字

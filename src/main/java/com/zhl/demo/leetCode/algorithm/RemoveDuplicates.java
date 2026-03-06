@@ -103,7 +103,7 @@ public class RemoveDuplicates {
         
         // 测试用例4：删除重复项（保留两个）
         System.out.println("\n--- 删除重复项（保留两个） ---");
-        int[] nums4 = {1, 1, 1, 2, 2, 3};
+        int[] nums4 = {1, 1, 1, 2, 2, 2, 3, 3,4};
         System.out.print("原数组: ");
         printArray(nums4, nums4.length);
         

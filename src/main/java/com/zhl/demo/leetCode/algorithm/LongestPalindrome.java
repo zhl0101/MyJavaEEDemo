@@ -25,8 +25,9 @@ public class LongestPalindrome {
         for (char c : s.toCharArray()) {
             charCount.put(c, charCount.getOrDefault(c, 0) + 1);
         }
-        
+        // 计算回文串长度
         int palindromeLength = 0;
+        // 标记是否有字符出现奇数次
         boolean hasOdd = false;
         
         // 计算回文串长度
